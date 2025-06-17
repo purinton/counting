@@ -1,6 +1,6 @@
 # [![Purinton Dev](https://purinton.us/logos/brand.png)](https://discord.gg/QSBxQnX7PF)
 
-## @purinton/discord-template [![npm version](https://img.shields.io/npm/v/@purinton/discord-template.svg)](https://www.npmjs.com/package/@purinton/discord-template)[![license](https://img.shields.io/github/license/purinton/discord-template.svg)](LICENSE)[![build status](https://github.com/purinton/discord-template/actions/workflows/nodejs.yml/badge.svg)](https://github.com/purinton/discord-template/actions)
+## @purinton/counting [![npm version](https://img.shields.io/npm/v/@purinton/counting.svg)](https://www.npmjs.com/package/@purinton/counting)[![license](https://img.shields.io/github/license/purinton/counting.svg)](LICENSE)[![build status](https://github.com/purinton/counting/actions/workflows/nodejs.yml/badge.svg)](https://github.com/purinton/counting/actions)
 
 A modern Discord app built with Node.js, based on the [@purinton/discord](https://github.com/purinton/discord) foundation.
 
@@ -36,8 +36,8 @@ A modern Discord app built with Node.js, based on the [@purinton/discord](https:
 1. **Clone this project:**
 
    ```bash
-   git clone https://github.com/purinton/discord-template.git
-   cd discord-template
+   git clone https://github.com/purinton/counting.git
+   cd counting
    npm install
    ```
 
@@ -51,7 +51,7 @@ A modern Discord app built with Node.js, based on the [@purinton/discord](https:
    ```bash
    npm start
    # or
-   node discord-template.mjs
+   node counting.mjs
    ```
 
 ## Configuration
@@ -61,15 +61,15 @@ A modern Discord app built with Node.js, based on the [@purinton/discord](https:
 
 ## Running as a Service (systemd)
 
-1. Copy `discord-template.service` to `/usr/lib/systemd/system/discord-template.service`.
+1. Copy `counting.service` to `/usr/lib/systemd/system/counting.service`.
 2. Edit the paths and user/group as needed.
 3. Reload systemd and start the service:
 
    ```bash
    sudo systemctl daemon-reload
-   sudo systemctl enable discord-template
-   sudo systemctl start discord-template
-   sudo systemctl status discord-template
+   sudo systemctl enable counting
+   sudo systemctl start counting
+   sudo systemctl status counting
    ```
 
 ## Docker
@@ -77,13 +77,13 @@ A modern Discord app built with Node.js, based on the [@purinton/discord](https:
 1. Build the Docker image:
 
    ```bash
-   docker build -t discord-template .
+   docker build -t counting .
    ```
 
 2. Run the container:
 
    ```bash
-   docker run --env-file .env discord-template
+   docker run --env-file .env counting
    ```
 
 ## Customization
@@ -127,7 +127,7 @@ For help, questions, or to chat with the author and community, visit:
 
 ## Links
 
-- [GitHub (Template)](https://github.com/purinton/discord-template)
+- [GitHub (Template)](https://github.com/purinton/counting)
 - [GitHub (Org)](https://github.com/purinton)
 - [GitHub (Personal)](https://github.com/rpurinton)
 - [Discord](https://discord.gg/QSBxQnX7PF)
