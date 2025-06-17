@@ -2,7 +2,7 @@
     "name": "@purinton/counting",
     "type": "module",
     "version": "1.0.0",
-    "description": "A modern Discord app built with Node.js, based on the purinton/discord foundation.",
+    "description": "A Discord counting game app. Users count up in sequence in a channel, but cannot count twice in a row. If someone counts out of order or repeats, the count resets. Every 10th number triggers a celebration message. The game state is saved per channel in a database.",
     "main": "counting.mjs",
     "scripts": {
         "start": "node counting.mjs",
@@ -13,8 +13,15 @@
         "url": "git+https://github.com/purinton/counting.git"
     },
     "keywords": [
+        "discord",
+        "discord-app",
+        "discord-js",
         "counting",
-        "nodejs"
+        "game",
+        "mysql",
+        "localization",
+        "docker",
+        "systemd"
     ],
     "author": "Russell Purinton <russell@purinton.us>",
     "license": "MIT",
