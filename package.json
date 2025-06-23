@@ -1,7 +1,7 @@
 {
     "name": "@purinton/counting",
     "type": "module",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A Discord counting game app. Users count up in sequence in a channel, but cannot count twice in a row. If someone counts out of order or repeats, the count resets. Every 10th number triggers a celebration message. The game state is saved per channel in a database.",
     "main": "counting.mjs",
     "scripts": {
