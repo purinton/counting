@@ -199,7 +199,7 @@ For help, questions, or to chat with the author and community, visit:
 
 ## Links
 
-- [GitHub (Project)](https://github.com/purinton/counting)
-- [GitHub (Org)](https://github.com/purinton)
-- [GitHub (Personal)](https://github.com/rpurinton)
+- [GitHub Repo](https://github.com/purinton/counting)
+- [GitHub Org](https://github.com/purinton)
+- [GitHub Personal](https://github.com/rpurinton)
 - [Discord](https://discord.gg/QSBxQnX7PF)
